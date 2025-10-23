@@ -1,0 +1,6 @@
+L = int(input())
+C = int(input())
+newL = L * C + (L - 1) * (C - 1)
+newC = 2 * (L + C - 2)
+print(newL)
+print(newC)
